@@ -1,0 +1,95 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #fafafa;
+	font: 14px/20px 'Calibri' sans-serif;
+}
+
+a:visited {
+	color: black;
+}
+
+img {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 296px;
+	height: 220px;
+	border: 1pt solid gray;
+}
+
+div.header {
+	background-color: #303030;
+	opacity: 0.6;
+	padding: 20px;
+	/*How do I make a floating header?*/
+}
+
+.headertext {
+	display: inline-block;
+	margin-right:20px;
+	color: white;
+}
+
+div.subheader {
+	background-color: white;
+	height: 150px;
+	padding-top: 25px;
+	padding-left: 20px;
+}
+
+div.container1 {
+	width: 960px;
+	margin-left: 20px;
+}
+
+div.triplecolumn {
+	display: inline-block;
+	margin-right: 36px;
+	width: 296px;
+	margin-left: -4px;
+	vertical-align: top;
+}
+
+div.majorcolumn {
+	display: inline-block;
+	margin-right: 36px;
+	width: 628px;
+}
+
+div.minorcolumn {
+	display: inline-block;
+	margin-left: -4px;
+	width: 296px;
+	padding:0;
+	vertical-align: top;
+}
+
+/*I should probably eliminate ".triplecolumn" and only use
+ .majorcolumn and .minorcolumn... it would be more efficient... */
+
+div.minorentry {
+	border-bottom: 1pt solid gray;
+}
+
+div.minorbox {
+	display: inline-block;
+	width: 80px;
+	margin-right: 20px;
+}
+
+div.minortext {
+	display: inline-block;
+	width: 196px;
+	margin-left: -4px;
+	vertical-align: top;
+}
+
+img.majorimage {
+	width: 628px;
+	height: 360px;
+}
+
+img.minorimage {
+	width: 80px;
+	height: 80px;
+}

@@ -1,0 +1,39 @@
+body {
+	/*Default body has margin and padding sometimes, so it's a good thing to set margin and padding to 0 */
+	margin: 0;
+	padding: 0;
+	background: #fafafa;
+	font: 14px/20px 'Helvetica' sans-serif;
+	/*the second pixel designation is the "letting," that is, the size between lines of text*/
+}
+
+p {
+	margin-bottom: 10px;
+}
+
+ul {
+	padding-left: 0;
+}
+
+.background {
+	border: 1pt solid #1e8564;
+	background-color: #09c170;
+	padding: 10px;
+}
+
+.i-b {
+	display: inline-block;
+	margin-right: 10px;
+	padding: 10px;
+	width: 200px;
+	height: 100px;
+	border: 1pt solid #eee;
+	background-color: #ddd;
+	line-height: 100px;
+	text-align: center;
+	font-size: 30px;
+}
+.container {
+	width:960px;
+	/*Search for one line of code about making everything in the container class put all content on one row?*/
+}

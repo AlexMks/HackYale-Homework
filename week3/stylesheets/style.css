@@ -1,0 +1,60 @@
+body {
+	margin: 0;
+	font: 16px/20px 'Helvetica' sanserif;
+}
+
+.container {
+	width: 960px;
+}
+
+.top-nav {
+	background-color:black;
+	color: white;
+	height: 50px;
+}
+
+.name {
+	margin-top: 0;
+	display: inline-block;
+}
+
+.links {
+	float: right;
+	/*float means that the content will go to the far right
+	 of whatever container it's in*/
+}
+
+.link {
+	display: inline-block;
+	padding-right: 10px;
+}
+
+.middle-section {
+	background-color: none;
+}
+
+.bottom-section {
+	background-color: #ddd;
+}
+
+.column {
+	float: left;
+	width: 296px;
+	padding-right: 36px;
+}
+
+.clearfix {
+	height: 0;
+	clear: both;
+}
+
+.bottom-left-section {
+	float: left;
+	width: 628px;
+	padding-right: 36px;
+}
+
+.bottom-right-section {
+	float: left;
+	
+}

@@ -1,0 +1,88 @@
+Use Google for questions
+
+Conventions
+- lowercase, underscores
+- use comments
+
+Anatomy of a Webpage
+Web Developer wants to learn HTML, CSS, Javascript
+- HTML = bones of website, the bones
+- CSS = "Cascading Style Sheets," the skin of physical features of the internet
+       Easy to learn...difficult to master
+       The web designer's best friend
+- Javascript = the "muscles"
+	The "interaction" or "animation" of the internet
+
+A webpage is a collection of boxes, and boxes in boxes
+
+The Four Ingredients of Webpages: Text, Images, Links, and Input
+
+HTML: THE CONCEPT
+- Nesting
+	- Like an essay ooutline
+- Tags <html> a tag is the opening of a box.  Closing the box is </html>
+
+TAGS
+	Tags have properties which are then passed onto the content within the tags
+
+	What is div?
+
+EVERY PAGE YOU TYPE HAS:
+ !DOCTYPE HTML
+ Open HTML Tag
+ Open and CLose Head tag
+ Open Body Tag
+ Close Body Tag
+ Close HTML Tag
+
+WHAT IS THE HEAD TAG FOR?
+	Metadata: data about the website.  it's not stuff that goes on your website.  The title would go into the head tag.
+
+If the line of code is less than 80 characters, it's ok to keep it on one line.  But don't.
+
+POPULAR TAGS
+	<div>an arbitrary division that sets off a section of your page</div>
+	<a>"anchor" links.  They are your links to other pages</a>
+	<img>  the image tag has no closing tag.  You can't really nest things inside an image...  You insert the image url in the tag.
+	<p> For typing lines of text<p>
+
+attributes
+     <tag name="value" name2="value">
+	name = name of the attribute.
+	value = the value you would like the attribute to have
+	EX. <a href="url">url link</a>
+
+You can make the image into a link!!!
+
+When linking to an image stored on your computer, start not with an http://, but with a .  (a dot) that means get the image from the current folder location on your computer, and then trace the direction of the object in your file directory.
+
+THE INTERNET
+	the internet is a wire that connects a huge neighborhood, or really, a huge branching wire going to a great number of addresses.
+
+
+CLient-server model
+	Client = (you and your) browser, who are being served
+	Server = the machine sending (or "serving") you the data and files you request
+	Host ~= "server"
+		To "host" files means to be a server
+	Local = hosted on the machine in question
+	Remote = hosted on a different machine
+
+REQUEST RESPONSE CYCLE
+1. CLient (browser) makes a "request".
+	A request is a textual mewssage whose syntax and semantics are defined by HyperText Transfer Protocol (HTTP).  The request is for HTML, CSS, JS, Image, Document, etc. Think of a protocol as a "language"
+
+2. The Server issues a response
+	The response is a textual message defined by HTTP
+		Contains content
+		
+		and/or status code. 
+			404 = "not found"
+			200 = "Okay!"
+			500 = internal server error
+
+	Server coding and languages include PHP, Java, Python, Ruby, etc.
+
+3. This cycle repeats itself
+
+

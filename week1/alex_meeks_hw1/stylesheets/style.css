@@ -1,0 +1,96 @@
+html {
+	background-image: url("../images/puerto_madero_background_small.jpg");
+  	background-size:cover;
+  	background-position: left top;
+  	background-attachment: fixed;
+  	}
+body {
+	font-family:"calibri", calibri;
+	color: #ffffff;
+	text-align:center;
+	}
+h1 {
+	color: #ffffff;
+	}
+p {
+	font-size: 1.1em;
+}
+dl {
+	font-size: 1.1em;
+}
+ul {
+	font-size: 1.1em;
+}
+a{
+	text-decoration: underline;
+	font-weight: bold;
+}
+a:visited {
+	color: #ffffff;
+}
+a:hover {
+	text-decoration: underline;
+}
+table {
+	padding:10px;
+	margin: 5% 5%;
+	text-align:left;
+	border-spacing:10px;
+}
+img {
+	display: block;
+	margin: 0 auto;
+	border-style:solid;
+	border-width:2px;
+	color: #505050;
+}
+blockquote {
+	font-family:"centaur", centaur;
+	font-size: 1.1em;
+}
+div.transbox1 {
+	width:200px;
+  	height:280px;
+  	margin-left:60%;
+  	margin-top:5%;
+  	background-color:#505050;
+  	opacity:0.6;
+}
+td.transbox2 {
+	background-color:#505050;
+  	opacity:0.8;
+  	padding-left: 40px;
+  	padding-right: 40px;
+}
+.contact {
+	margin-top: 18%;
+	margin-left: 5%;
+	background-color: #505050;
+	padding: 10px;
+	opacity: 0.8;
+	border-spacing: 50px 2px;
+}
+.interests {
+	margin-left:5%;
+	margin-top:5%;
+	background-color:#A0A0A0;
+	padding-left: 20px;
+}
+.image_travel {
+	max-width: 347px;
+	max-height: 260px;
+}
+.sp_link {
+	padding-left: 40px;
+}
+.interests2 {
+	margin-left:5%;
+	margin-top:1%;
+	background-color:#505050;
+	opacity: 0.8;
+	text-align: center;
+	width: 90%;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #202020 ;
+}

@@ -1,0 +1,191 @@
+html {
+	background-image: url("../images/puerto_madero_background_small.jpg");
+  	background-size:cover;
+  	background-position: left top;
+  	background-attachment: fixed;
+  	}
+
+body {
+	font-family:"calibri", calibri;
+	color: #ffffff;
+	text-align:center;
+	font-size: 1.1em;
+	margin: 0;
+	padding: 0;
+	}
+
+h1 {
+	color: #ffffff;
+	}
+
+ul {
+	text-indent: 1em;
+	list-style-type: none;
+}
+
+a:link {
+	text-decoration: none;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+a:visited {
+	color: #ffffff;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+table {
+	padding:10px;
+	margin: 5% 5%;
+	text-align:left;
+	border-spacing:10px;
+}
+
+blockquote {
+	font-family:"centaur", centaur;
+	font-size: 1.1em;
+}
+
+.top-nav {
+	background-color: #202020;
+	color: white;
+	height: 50px;
+	padding: 15px 50px 15px 15px;
+}
+
+.name {
+	display: inline-block;
+}
+
+.links {
+	float: right;
+	margin-top: 15px;
+}
+
+.nav-link:link {
+	display: inline-block;
+	padding-right: 30px;
+	padding-left: 30px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	text-decoration: none;
+	background-color: #202020;
+	-webkit-transition: background-color 1.0s ease-in;
+	transition: background-color 1.0s ease-in;
+	-webkit-transition: color .2s ease-in;
+	transition: color .2s ease-in;
+}
+
+.nav-link:hover {
+	background-color: #FFFFFF;
+	color: black;	
+}
+
+.nav-link:visited {
+	text-decoration: none;
+	color: white;
+}
+
+.nav-link:hover {
+	text-decoration: none;
+	color: black;
+}
+
+.interests-header {
+	margin-left:5%;
+	margin-top:5%;
+	text-align: center;
+	color: black;
+}
+
+.home-menu {
+	width:200px;
+  	height:290px;
+  	margin-left:65%;
+  	margin-top:2.5%;
+  	//background-color: rgba(184, 36, 36, 0.63);
+  	background-color: rgba(20,20,20,0.7);
+  	text-shadow: 0px 0px 2px #3D3A3A;
+  	border-left: 4px solid;
+  	border-color: rgb(184, 36, 36);
+}
+
+.home-header {
+	font-family: "Calibri", Garamond, Serif;
+}
+
+.about {
+	width: 950px;
+	margin-top: 50px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.about-image {
+	float: left;
+	width: 550px;
+	height: auto;
+	margin-right: 20px;
+	border-style:solid;
+	border-width:4px;
+	border-color: #505050 #505050 rgb(184, 36, 36) #505050;
+}
+
+.biography {
+	float:left;
+	width: 300px;
+	background-color: rgba(0,0,0,0.8);
+  	padding: 30px;
+  	text-align: left;
+  	max-height: 310px;
+  	border: 4px solid;
+  	border-color: #505050 rgb(184, 36, 36) #505050 #505050;
+}
+
+.contact {
+	width: 80%;
+	margin-top: 15%;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: rgba(29, 20, 20, 0.7);
+	padding: 10px;
+	list-style-type: none;
+	height: 50px;
+	line-height: 50px;
+	text-shadow: 0px 0px 2px #3D3A3A;
+	border-bottom: 4px solid;
+  	border-color: rgb(184, 36, 36);
+}
+
+.contact-item {
+	display: inline-block;
+	padding-left: 70px;
+	padding-right: 70px;
+}
+
+.interests {
+	margin-left:5%;
+	margin-top:5%;
+	background-color:#A0A0A0;
+	padding-left: 20px;
+}
+
+.image_travel {
+	max-width: 347px;
+	max-height: 260px;
+}
+
+.sp_link {
+	padding-left: 40px;
+}
+
+.interests-header {
+	margin-left:5%;
+	margin-top:5%;
+	text-align: center;
+	color: black;
+}
